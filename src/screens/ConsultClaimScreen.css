@@ -1,0 +1,28 @@
+/* ConsultClaimScreen.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .label {
+    font-size: 18px; /* Augmenter la taille de la police */
+    margin-bottom: 20px; /* Ajouter plus d'espace entre les labels */
+    text-align: left; /* Alignement à gauche */
+  }
+  
+  .label span {
+    color:#025054 ;
+    font-weight: bold; /* Mettre en gras seulement le texte des labels */
+  }
+  
+  .closeButton {
+    background-color: #C72532; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Supprimer la bordure */
+    padding: 10px 20px; /* Ajouter un remplissage */
+    font-size: 16px; /* Taille de la police du bouton */
+    border-radius: 5px; /* Ajouter des coins arrondis */
+    float: right; /* Aligner à droite */
+    cursor: pointer; /* Afficher un curseur au survol */
+  }
+  
