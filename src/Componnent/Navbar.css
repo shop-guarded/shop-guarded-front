@@ -1,0 +1,26 @@
+/* Navbar.css */
+.navbar {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+    border-bottom: 1px solid #ccc; /* Ajoute une bordure inférieure */
+  }
+  
+  .logo img {
+    width: 200px; /* Ajuste la taille de votre logo selon vos besoins */
+  }
+  
+  .title {
+    margin: 0; /* Supprime les marges par défaut */
+    text-align: center; /* Centre le texte */
+    flex-grow: 1; /* Permet au titre de prendre autant d'espace que possible */
+    color: #282F39;
+  }
+  /* Navbar.css */
+.navbar {
+    margin-top: 0; /* Assurez-vous qu'il n'y a pas de marge en haut */
+    padding-top: 0; /* Assurez-vous qu'il n'y a pas de padding en haut */
+  }
+  
