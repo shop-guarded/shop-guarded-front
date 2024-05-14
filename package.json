@@ -1,13 +1,26 @@
 {
+<<<<<<< HEAD
   "name": "front",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+=======
+  "name": "shopguarded",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+>>>>>>> eabfdf50262e2b8eb647679df731b4e7b4592e56
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+<<<<<<< HEAD
+=======
+    "react-router-dom": "^6.23.1",
+>>>>>>> eabfdf50262e2b8eb647679df731b4e7b4592e56
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
