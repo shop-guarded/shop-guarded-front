@@ -1,0 +1,81 @@
+.signup-screen {
+    background-color: #F2FBFE;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the form horizontally */
+    height: 100vh; /* Set container height to 100% viewport height */
+  
+  }
+  
+  .signup-screen h2 {
+    margin-bottom: 100px;
+    color: #025054;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 30px; 
+  }
+  
+  .form-container {
+    display: flex;
+  }
+  
+  .form-column {
+    flex: 1;
+    margin-right: 40px;
+
+}
+  
+  /* Add space between columns */
+  .form-column:first-child {
+    margin-right: 100px; /* Adjust the margin between columns */
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    border: 1px solid #fff;
+    font-size: 16px;
+    width: 250px; /* Adjust input width as needed */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+background-color: #D1EDFC; 
+  }
+  
+  .form-group select {
+    width: 290px;
+  }
+  
+  
+  
+  .form-group select:focus {
+    outline: none;
+  }
+  
+  .button {
+    background-color: #025054;
+    color: white;
+    width: 150px;
+    height: 45px;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  .button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add space between the form and the button */
+}
+
+  .button:hover {
+    background-color: #012426;
+  }
+  

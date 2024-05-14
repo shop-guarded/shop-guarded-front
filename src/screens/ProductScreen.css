@@ -1,0 +1,72 @@
+.product-screen {
+    display: flex;
+    justify-content: space-between;
+    position: relative; /* Ajout d'une position relative pour que les boutons positionnés de façon absolue restent dans le flux de la page */
+}
+
+.product-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.product-images img {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: 3px solid #025054; /* Ajout de la bordure avec une couleur spécifique */
+    border-radius: 5px; /* Optionnel : arrondir les coins de la bordure */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajout de l'ombre */
+
+}
+
+.product-info {
+    position: relative;
+}
+
+.next-button {
+    position: absolute;
+    bottom: 40px; /* Ajuster la distance depuis le bas de la page */
+    right: 30px; /* Ajuster la distance depuis le côté droit de la page */
+    background-color: #025054;
+    color:white;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    
+}
+.next-button:hover {
+background-color: #48898C;
+}
+.color-options {
+    display: flex;
+}
+
+.color-options button {
+    border: none;
+    background: none;
+    margin-right: 10px; /* Marge à droite de chaque bouton pour l'espacement */
+    cursor: pointer;
+}
+
+.color-options button img {
+    width: 50px; /* Taille des images de couleur */
+    height: auto;
+    border: 2px solid transparent; /* Bordure initialement transparente */
+    transition: border-color 0.3s ease; /* Transition pour la couleur de la bordure lors du survol */
+}
+
+.color-options button img:hover {
+    border-color: #025054; /* Couleur de la bordure au survol */
+}
+.options button {
+    background-color: #ffff;
+    color: #025054;
+    border-color: #025054;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
